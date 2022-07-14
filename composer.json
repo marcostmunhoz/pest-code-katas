@@ -1,0 +1,27 @@
+{
+    "name": "marcostm/pest-code-katas",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MarcosTM\\PestCodeKatas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcos Tesolin Munhoz",
+            "email": "marmunhoz414@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
